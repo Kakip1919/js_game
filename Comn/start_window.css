@@ -1,0 +1,77 @@
+html{
+    background-color:#eff0f3;
+}
+body{
+    max-width: 100%;
+    max-height: 100%;
+}
+.Start_title{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 250px;
+    margin-bottom: 100px;
+}
+
+.Start_New_Game{
+    display: block;
+    text-align: center;
+    font-size: 3.0rem;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+.Start_Continue{
+    display: block;
+    text-align: center;
+    font-size: 3.0rem;
+    padding: 10px;
+    margin:100px auto;
+}
+
+.cp_link {
+    position: relative;
+    padding: 0.1em 0.3em;
+    display: block;
+
+    transition: .3s;
+    color: black;
+    text-decoration: none;
+    margin:0;
+}
+.cp_link::before,
+.cp_link::after {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: .3s;
+}
+
+.cp_link::before {
+    top: 0;
+    left: 0;
+}
+
+.cp_link::after {
+    bottom: 0;
+    right: 0;
+}
+
+.cp_link:hover::before,
+.cp_link:hover::after {
+    width: 100%;
+}
+
+.container{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.NewGame_wrapper{
+    margin: 30px 0;
+}
+
+/*#contents {*/
+/*    text-align: center;*/
+/*}*/

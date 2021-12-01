@@ -1,0 +1,63 @@
+html{
+    background-color:#eff0f3;
+}
+
+body{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.menu_wrapper{
+    display: inline-flex;
+    width: 1920px;
+}
+
+.quests_menu{
+    margin: 0 auto;
+}
+
+.quests_button{
+    font-size: 30px;
+}
+
+.status_menu{
+    margin: 0 auto;
+}
+
+.status_button{
+    font-size: 20px;
+}
+
+.shop_menu{
+    margin: 0 auto;
+}
+
+.shop_button{
+    font-size: 20px;
+}
+
+.achievements_menu{
+    margin: 0 auto;
+}
+
+.achieve_button{
+    font-size: 20px;
+}
+
+.party_menu{
+    margin: 0 auto;
+}
+
+.party_button{
+    font-size: 20px;
+}
+
+.Options_menu{
+    margin: 0 auto;
+}
+
+.Options_button{
+    font-size: 20px;
+}
+
+
